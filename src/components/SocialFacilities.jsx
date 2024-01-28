@@ -2,7 +2,7 @@
 
 import React from "react";
 import SocialFacility from "./SocialFacility";
-import { socialFacilities } from "../data/SocialFacilities";
+import { socialFacilities } from "../data/socialFacilities";
 
 const SocialFacilities = () => {
   return (

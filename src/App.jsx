@@ -1,19 +1,17 @@
-// src/App.jsx
+import React from 'react';
+import './index.css';
+import SocialFacilities from './components/SocialFacilities';
+import CafeList from './components/CafeList';
+import data from './data';
 
-import React from "react";
-import "./App.css";
-import Navbar from "./components/Navbar";
-import CafeList from "./components/CafeList";
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Navbar />
-      <main>
-        <CafeList />
-      </main>
+    <div className="app">
+      <h1>Welcome to the Social Facilities and Cafe List</h1>
+      <SocialFacilities facilities={data.socialFacilities} />
+      <CafeList cafes={data.cafes} />
     </div>
   );
-}
+};
 
 export default App;
