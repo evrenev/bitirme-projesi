@@ -88,7 +88,8 @@ export const cafes = [
       menu: ["menü için görsele tıklayınız"],
       menuLink: "https://kafem.com.tr/#menu",
     },
-  
+
+
     
   
     
