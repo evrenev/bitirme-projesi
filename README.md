@@ -1,0 +1,2 @@
+# bitirme-projesi
+mega akademi
